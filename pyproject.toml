@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "demo-api"
+version = "0.1.0"
+description = ""
+authors = ["RoxanneHsu <roxannehsu0115@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = ">=0.114.0"
+uvicorn = ">=0.30.6"
+pytest = ">=8.3.2"
+sqlalchemy = ">=2.0.35"
+pymysql = ">=1.1.1"
+cryptography = ">=43.0.1"
+python-dotenv = ">=1.0.1"
+faker = ">=29.0.0"
+httpx = "^0.27.2"
+python-multipart = "^0.0.9"
+streamlit = "^1.38.0"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
