@@ -32,7 +32,7 @@
   - **`tests/`**:  
     測試文件夾，包含單元測試和其他測試代碼，使用 `pytest` 來檢驗應用的功能和正確性。
 
-- **frontend/**:  
+- **app/frontend/**:  
   主要為 streamlit 相關檔案。
 
 
