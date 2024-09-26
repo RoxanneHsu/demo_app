@@ -1,18 +1,18 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, confloat
 
 class Order(BaseModel):
     id: int
     brand: str
     product: str
-    weight: float
-    capacity: float
+    weight: confloat(ge=0) 
+    capacity: confloat(ge=0) 
 
 
 class OrderRequestModel(BaseModel):
     brand: str
     product: str
-    weight: float
-    capacity: float
+    weight: confloat(ge=0) 
+    capacity: confloat(ge=0) 
 
 
 class ResponseModel(BaseModel):
